@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all tags as well.  
           repository: crops/toaster-container
-          path: './toaster-container'  
+     #     path: './toaster-container'  
       -
         name: Docker meta
         id: meta
