@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Fetch all tags as well.  
-          repository: https://github.com/crops
+          repository: crops
           path: './toaster-container'  
       -
         name: Docker meta
