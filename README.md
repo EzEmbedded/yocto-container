@@ -1,2 +1,3 @@
 # yocto-container
-yocto-container from crops
+build yocto-container image with crops/yocto-container.
+
