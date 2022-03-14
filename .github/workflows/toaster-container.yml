@@ -50,7 +50,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
             GITREPO=git://git.yoctoproject.org/poky
-            BRANCH=hardknott
+            BRANCH=master
 
       -
         name: Image digest
